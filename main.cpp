@@ -3,8 +3,6 @@
 
 using namespace std;
 
-#define LIMIT 50
-
 void generate_curve(int X[],int Y[],int colour)
 {
     int Px,Py;
@@ -19,7 +17,7 @@ void generate_curve(int X[],int Y[],int colour)
 
 int main()
 {
-    int i,x[LIMIT],y[LIMIT];
+    int i,x[4],y[4];
     char ch;
 
     int gd,gm;
